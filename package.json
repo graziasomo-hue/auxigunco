@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "mkdir -p dist && cp -r *.html *.css *.js assets dist/ 2>/dev/null || cp *.html dist/"
   },
   "keywords": [],
   "author": "",
